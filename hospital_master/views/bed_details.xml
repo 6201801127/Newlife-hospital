@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="bed_details_view_form" model="ir.ui.view">
+        <field name="name">bed_details.view.form</field>
+        <field name="model">bed.details</field>
+        <field name="arch" type="xml">
+            <form string="">
+                <sheet>
+                    <group>
+                        <field name="bed_no"/>
+                        <field name="ref_code"/>
+                        <field name="description"/>
+
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="bed_details_view_tree" model="ir.ui.view">
+        <field name="name">bed_details.view.tree</field>
+        <field name="model">bed.details</field>
+        <field name="arch" type="xml">
+            <tree string="">
+                <field name="bed_no"/>
+                <field name="ref_code"/>
+                <field name="description"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="bed_details_view_kanban" model="ir.ui.view">
+        <field name="name">bed_details.view.kanban</field>
+        <field name="model">bed.details</field>
+        <field name="arch" type="xml">
+            <kanban>
+                <templates>
+                    <t t-name="kanban-box">
+                        <field name="bed_no"/>
+                        <field name="ref_code"/>
+                        <field name="description"/>
+                    </t>
+                </templates>
+            </kanban>
+        </field>
+    </record>
+
+    <record id="bed_details_action" model="ir.actions.act_window">
+        <field name="name">Action Name</field>
+        <field name="res_model">bed.details</field>
+        <field name="view_mode">tree,form,kanban</field>
+      
+    </record>
+
+</odoo>

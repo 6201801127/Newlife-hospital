@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <menuitem
+        id="hospital_master_menu"
+        name="Hospital Master"
+        sequence="1"/>
+    <menuitem
+        id="hospital_master_main_menu"
+        name="Main menu"
+        parent="hospital_master_menu"
+        sequence="1"/>
+    <menuitem
+        id="bed_details_menu"
+        parent="hospital_master_main_menu"
+        action="bed_details_action"
+        name="Bed Details"
+        sequence="1"/>
+    <menuitem
+        id="floor_details_menu"
+        parent="hospital_master_main_menu"
+        action="floor_details_action"
+        name="Floor Details"
+        sequence="1"/>
+    <menuitem
+        id="room_details_menu"
+        parent="hospital_master_main_menu"
+        action="room_details_action"
+        name="Room Details"
+        sequence="1"/>
+
+</odoo>

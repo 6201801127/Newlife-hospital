@@ -1,6 +1,10 @@
 {
     'name' : "Hospital Master",
     'Summary' : "All master data of hospital managed by this module",
+    'version': '16.0',
+    'category' : "Web Application",
+    'author' : "Ajay Kumar Ravidas",
+    'license': 'LGPL-3',
     'data' : [
         'security/ir.model.access.csv',
         'views/bed_details.xml',

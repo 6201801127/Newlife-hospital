@@ -1,6 +1,10 @@
 {
     'name' : "Doctors",
     'summary' : "This is the module where manage all doctor details",
+    'version': '16.0',
+    'category' : "Web Application",
+    'author' : "Ajay Kumar Ravidas",
+    'license': 'LGPL-3',
     'data' : [
 
     ],

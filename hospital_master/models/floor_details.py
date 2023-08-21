@@ -5,6 +5,7 @@ class FloorDetails(models.Model):
 
     _name = "floor.details"
     _description = "Hospital floor details"
+    _rec_name = "floor_name"
 
     floor_name = fields.Char(string="Floor Name")
     ref_code = fields.Char(string="Ref. Code")

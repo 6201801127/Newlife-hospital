@@ -8,6 +8,7 @@
     'data' : [
         'security/ir.model.access.csv',
         'views/bed_details.xml',
+        'views/doctor_category_details.xml',
         'views/floor_details.xml',
         'views/room_details.xml',
         'views/menuitem.xml',
@@ -18,5 +19,5 @@
     'sequence' : 2,
     'price': 49.99,
     'currency': 'USD',
-    'images': ['static/description/mdm.png'],
+    'images': ['static/description/icon.jpeg'],
 }

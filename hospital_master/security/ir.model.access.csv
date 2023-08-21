@@ -3,3 +3,5 @@ id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
 access_bed_details,bed.details,model_bed_details,,1,1,1,1
 access_floor_details,floor.details,model_floor_details,,1,1,1,1
 access_room_details,room.details,model_room_details,,1,1,1,1
+access_doctor_category_master,doctor.category.master,model_doctor_category_master,,1,1,1,1
+

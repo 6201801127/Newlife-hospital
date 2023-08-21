@@ -5,8 +5,11 @@
     'category' : "Web Application",
     'author' : "Ajay Kumar Ravidas",
     'license': 'LGPL-3',
+    'depends': ['hospital_master'],
     'data' : [
-
+        'security/ir.model.access.csv',
+        'views/doctor_details.xml',
+        'views/menuitem.xml',
     ],
     'application': True,
     'installable': True,
@@ -14,5 +17,5 @@
     'sequence' : 1,
     'price': 49.99,
     'currency': 'USD',
-    'images': ['static/description/doctor_image.jpeg'],
+    'images': ['static/description/doctor.jpg'],
 }

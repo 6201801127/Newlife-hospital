@@ -8,4 +8,7 @@
     'installable': True,
     'auto_installation': False,
     'sequence' : 1,
+    'price': 49.99,
+    'currency': 'USD',
+    'images': ['static/description/doctor_image.jpeg'],
 }

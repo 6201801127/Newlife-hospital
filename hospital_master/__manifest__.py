@@ -12,4 +12,7 @@
     'installable': True,
     'auto_install' : False,
     'sequence' : 2,
+    'price': 49.99,
+    'currency': 'USD',
+    'images': ['static/description/mdm.png'],
 }
